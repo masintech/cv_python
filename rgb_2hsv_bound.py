@@ -11,6 +11,8 @@ hsv_color = cv2.cvtColor(color, cv2.COLOR_BGR2HSV)
 
 hue = hsv_color[0][0][0]
 
+print("According to RGB scale: "+str(blue)+"(B), "+str(green)+"(G), "+str(red)+"(R).")
+print("In HRV scale: ")
 print("Lower bound is :"),
 print("[" + str(hue-10) + ", 100, 100]\n")
 
